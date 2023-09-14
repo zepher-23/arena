@@ -1341,6 +1341,9 @@ details > p {
 	.container {
 		max-width: 1176px;
 	}
+	.faq-sec details{
+		max-width: 100%;
+	}
 }
 
 /* Medium screen : 992px. */
@@ -1354,6 +1357,9 @@ details > p {
 		 align-items: center;
 		 padding:50px;
 		 max-width:60%;
+	}
+	.faq-sec details{
+		max-width: 100%;
 	}
 	.main-menu {
 		margin-right: 90px;
@@ -1469,6 +1475,22 @@ details > p {
 		 padding:50px;
 		 max-width:80%;
 	}
+	.about-p{
+		text-align: justify;
+		
+	}
+	.empty-space{
+		display: none;
+	}
+	.backdrop-blur{
+		min-height: fit-content;
+	}
+	.sf-sec{
+		justify-content: space-evenly !important ;
+	}
+	.faq-sec details{
+		width: 100%;
+	}
 	.main-menu {
 		display: none;
 		position: absolute;
@@ -1539,7 +1561,7 @@ details > p {
 		background-position: left top;
 	}
 	.review-item {
-		margin-bottom: 63px;
+		margin-bottom: 13px;
 	}
 	.footer-logo {
 		margin-bottom: 50px;
