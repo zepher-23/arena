@@ -1542,6 +1542,7 @@ details > p {
 		float: right;
 		cursor: pointer;
 		font-size: 25px;
+		margin-right:20px;
 	}
 	.user-panel {
 		display: none;
