@@ -1397,6 +1397,15 @@ details > p {
 		 padding:50px;
 		 max-width:60%;
 	}
+	.main-menu {
+		display: none;
+		position: absolute;
+		top: calc(100% + 24px);
+		left: 0;
+		width: 100%;
+		background: #ffffff;
+		z-index: 999;
+	}
 	.site-logo {
 		max-width: 130px;
 	}
@@ -1459,6 +1468,15 @@ details > p {
 		 align-items: center;
 		 padding:50px;
 		 max-width:80%;
+	}
+	.main-menu {
+		display: none;
+		position: absolute;
+		top: calc(100% + 24px);
+		left: 0;
+		width: 100%;
+		background: #ffffff;
+		z-index: 999;
 	}
 	.header-section {
 		overflow: visible;
@@ -1563,6 +1581,15 @@ details > p {
 text-align: center;
 		 padding:20px;
 		 max-width:100%;
+	}
+	.main-menu {
+		display: none;
+		position: absolute;
+		top: calc(100% + 24px);
+		left: 0;
+		width: 100%;
+		background: #ffffff;
+		z-index: 999;
 	}
 	.hero-slider .owl-dots {
 		padding: 0 15px;

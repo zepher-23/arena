@@ -51,6 +51,11 @@ align-items:center ;
     width: 30vw;
     border-radius: 5px;
 }
+@media (max-width: 768px) {
+    .modal-content {
+        width: 80vw; /* Set the width to 80vw for mobile screens */
+    }
+}
 
 .close {
     color: #aaa;
@@ -131,7 +136,7 @@ select[name="message"] {
 				<i class="fa fa-bars"></i>
 			</div>
 			<!-- site menu -->
-			<nav class="main-menu" style="display: flex;justify-content: center;flex-grow: 1;">
+			<nav class="main-menu" style="">
 				
 				<ul >
 					<li ><a style="margin:0px"  href="index.html">Home</a></li>
