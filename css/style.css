@@ -1479,6 +1479,13 @@ details > p {
 		text-align: justify;
 		
 	}
+	.row p{
+		margin:10px;
+		text-align: justify;
+	}
+	.row h4{
+		margin-left: 10px;
+	}
 	.empty-space{
 		display: none;
 	}
